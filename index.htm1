@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحتي الشخصية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: right;
+        }
+        header {
+            background-color: #d35400;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e67e22;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #d35400;
+        }
+        section {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #d35400;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>صفحتي الشخصية</h1>
+    </header>
+    <nav>
+        <a href="#about">السيرة الذاتية</a>
+        <a href="#interests">اهتماماتي</a>
+        <a href="#projects">المشاريع</a>
+        <a href="#gallery">معرض الصور</a>
+        <a href="#contact">معلومات الاتصال</a>
+    </nav>
+    <section id="about">
+        <h2>السيرة الذاتية</h2>
+        <p>مرحبًا بكم في صفحتي الشخصية. أنا مهتم بالفكر والفلسفة والثقافة والإسلام والفقه الإسلامي وعلم الكلام الإسلامي والكتب المؤثرة.</p>
+    </section>
+    <section id="interests">
+        <h2>اهتماماتي</h2>
+        <p>أنا شغوف بدراسة الفلسفة والفكر الإسلامي، وأخصص وقتي للبحث والقراءة في هذه المجالات. أؤمن بأن المعرفة هي القوة وأعمل على تعزيز فهمي وتعليمي للآخرين.</p>
+    </section>
+    <section id="projects">
+        <h2>المشاريع</h2>
+        <p>قمت بعدة مشاريع في مجال الفكر الإسلامي والفلسفة، وأعمل على تأليف كتاب حول تأثير الفكر الإسلامي في العالم المعاصر.</p>
+    </section>
+    <section id="gallery">
+        <h2>معرض الصور</h2>
+        <div class="gallery">
+            <img src="https://example.com/mosque1.jpg" alt="مسجد جميل">
+            <img src="https://example.com/mosque2.jpg" alt="مسجد جميل">
+        </div>
+    </section>
+    <section id="contact">
+        <h2>معلومات الاتصال</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="الاسم">
+            <input type="email" placeholder="البريد الإلكتروني">
+            <textarea rows="4" placeholder="رسالتك"></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+</body>
+</html>
